@@ -1,11 +1,10 @@
-function checkNumberSign(number) {
-  if (number > 0) {
-    return "Positive";
-  } else if (number < 0) {
-    return "Negative";
-  } else {
-    return "Zero";
-  }
-}
+let x = 10;
 
-console.log(checkNumberSign(5));
+if (x>0){
+  console.log("Positive");
+}
+else if (x<0){
+  console.log("Negative");
+}else if (x=0){
+  console.log("Zero");
+}
