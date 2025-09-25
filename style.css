@@ -1,0 +1,38 @@
+/* Default (light mode) styles */
+#myContainer {
+    background-color: #f0f0f0; /* Light background */
+    color: #333; /* Dark text */
+    padding: 20px;
+    margin: 20px;
+    width: 200px; /* Small container */
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    font-family: sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+#myContainer p {
+    margin: 0 0 15px 0; /* Space between text and button */
+}
+
+#themeToggleBtn {
+    padding: 10px 15px;
+    border: none;
+    background-color: #ccc;
+    color: #333;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+/* Dark mode styles */
+.dark-mode {
+    background-color: #333; /* Dark background */
+    color: #f0f0f0; /* Light text */
+}
+
+.dark-mode #themeToggleBtn {
+    background-color: #555;
+    color: #f0f0f0;
+}
